@@ -22,10 +22,10 @@ Essas visualizações podem ser muito úteis para aplicação de estratégias de
 project_sprint5/
 ├── notebooks/
 │ └── EDA.ipynb # Notebook com EDA e insights
-│ └── vehicles_clear.csv # Arquivos de dados limpo após análise
 ├── streamlite/
 │ └── config.toml # Arquivo de configuração do Streamlit
 ├── vehicles.csv # Arquivo de dados original
+│   vehicles_clear.csv # Arquivos de dados limpo após análise
 ├── app.py # Código principal do app Streamlit
 ├── requirements.txt # Bibliotecas utilizadas
 └── README.md # Explicação do projeto
