@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
-vehicles_data = pd.read_csv('C:/Users/Acer/project_sprint5/vehicles.csv') #open df
+vehicles_data = pd.read_csv('vehicles_clear.csv') #open df
 
 st.title('Visualização de dados dos veículos')
 
