@@ -104,7 +104,7 @@ if build_scatter:
 
     # Seleção das variáveis para os eixos X, Y e a coloração
     x_legivel = st.selectbox("Eixo X", numeric_cols_legiveis, index=numeric_cols_legiveis.index("Quilometragem (km)"))
-    y_legivel = st.selectbox("Eixo Y", numeric_cols_legiveis, index=numeric_cols_legiveis.index("Preço (R$)"))
+    y_legivel = st.selectbox("Eixo Y", numeric_cols_legiveis, index=numeric_cols_legiveis.index("Preço ($)"))
     color_legivel = st.selectbox("Colorir por", numeric_cols_legiveis + categorical_cols_legiveis, index=(numeric_cols_legiveis + categorical_cols_legiveis).index("Ano de Fabricação"))
 
     # Converte os nomes legíveis para os nomes técnicos
