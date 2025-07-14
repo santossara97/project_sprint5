@@ -4,9 +4,15 @@
 **Projeto Final do Sprint 5: Visualização Interativa de Dados**
 
 ## 📌 Descrição  
-Este projeto cria um aplicativo web interativo utilizando o **Streamlit**, no qual o usuário consegue interagir com histogramas e gráficos de dispersão com base em informações extraídas do **DataFrame vehicles.csv**.
+Este projeto desenvolve um aplicativo web interativo utilizando Streamlit, permitindo ao usuário explorar gráficos dinâmicos baseados nos dados do conjunto vehicles.csv.
 
-Essas visualizações podem ser muito úteis para aplicação de estratégias de vendas, tomada de decisões e análise de comportamento de produtos por N parâmetros.
+A proposta é facilitar a análise de informações sobre veículos por meio de histogramas, gráficos de dispersão e gráficos de barras, promovendo insights que podem ser aplicados em:
+
+- Estratégias de venda
+
+- Tomada de decisões
+
+- Análise de mercado automotivo.
 
 ---
 
@@ -21,22 +27,30 @@ Essas visualizações podem ser muito úteis para aplicação de estratégias de
 
 project_sprint5/
 ├── notebooks/
-│ └── EDA.ipynb # Notebook com EDA e insights
-├── streamlite/
-│ └── config.toml # Arquivo de configuração do Streamlit
-├── vehicles.csv # Arquivo de dados original
-│   vehicles_clear.csv # Arquivos de dados limpo após análise
-├── app.py # Código principal do app Streamlit
-├── requirements.txt # Bibliotecas utilizadas
-└── README.md # Explicação do projeto
+│   └── EDA.ipynb             # Análise exploratória e limpeza dos dados
+├── streamlit/
+│   └── config.toml           # Configuração do perfil do Streamlit (opcional)
+├── vehicles.csv              # Dados originais
+├── vehicles_clear.csv        # Dados tratados para visualização
+├── app.py                    # Aplicativo principal com Streamlit
+├── requirements.txt          # Bibliotecas necessárias
+└── README.md                 # Descrição e instruções do projeto
 
 ---
 
 ## ⚙️ Funcionalidades  
 
-- 📂 Upload e carregamento de dados CSV de veículos  
-- 📊 Visualização interativa via histogramas e gráficos de dispersão  
-- ✅ Caixas de seleção para escolher quais gráficos gerar
+📥 Carregamento automático dos dados
+
+📊 Geração de histogramas, gráficos de dispersão e de barras
+
+✅ Interatividade via caixas de seleção
+
+🔎 Visualização de padrões com base em:
+    Quilometragem (odometer)
+    Preço (price)
+    Ano de fabricação (model_year)
+    Tempo médio de venda (days_listed)
 
 ---
 
@@ -48,6 +62,7 @@ project_sprint5/
 streamlit run app.py
 3. O navegador será aberto automaticamente. Interaja com a aplicação e explore os dados!
 
-👩‍💻 Autor
+👩‍💻 Autora
 Sara Santos
 https://github.com/santossara97
+https://project-sprint5-bix2.onrender.com/
