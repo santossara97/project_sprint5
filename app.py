@@ -43,7 +43,7 @@ categorical_cols_legiveis = [traduzir_coluna(col) for col in categorical_cols]
 # Layout inicial da aplicação Streamlit
 
 # Título principal da aplicação
-st.title('📊 Visual Analytics Interativo: Mercado de Veículos Usados')
+st.title('📊 Visual Analytics Interactive: Mercado de Veículos Usados')
 st.markdown("---")
 st.markdown("#### Selecione as variáveis e visualize os gráficos interativos abaixo. 🧭")
 st.markdown("---")
@@ -129,7 +129,7 @@ if build_scatter:
 
     # Ajuste do layout
     scatter_fig.update_layout(
-        title=f"{y_legivel} vs {x_legivel} colorido por {color_legivel}",
+        title=f"{y_legivel} vs {x_legivel} por {color_legivel}",
         title_font_size=20,
         title_x=0,  # Alinha o título à esquerda
         height=500,
