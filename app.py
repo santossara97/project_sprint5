@@ -17,7 +17,7 @@ categorical_cols = vehicles_data.select_dtypes(include='object').columns.tolist(
 
 # Dicionário para traduzir nomes técnicos de colunas para nomes mais legíveis
 nomes_colunas = {
-    "price": "Preço (R$)",
+    "price": "Preço ($)",
     "odometer": "Quilometragem (km)",
     "days_listed": "Dias para Venda",
     "model_year": "Ano de Fabricação",
